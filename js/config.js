@@ -3,20 +3,20 @@ $(function() {
   CMS.init({
 
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
-    siteName: 'My Site',
+    siteName: 'img/logo.svg',
 
     // Tagline for your site
-    siteTagline: 'Your site tagline',
+    siteTagline: 'Tada',
 
     // Email address
-    siteEmail: 'your_email@example.com',
+    siteEmail: 'moughamir@gmail.com',
 
     // Name
-    siteAuthor: 'Your Name',
+    siteAuthor: 'Mohamed Moughamir',
 
     // Navigation items
     siteNavItems: [
-      { name: 'Github', href: 'https://github.com/yourname', newWindow: false},
+      { name: 'Github', href: 'https://github.com/moughamir', newWindow: false},
       { name: 'About'}
     ],
 
@@ -54,8 +54,8 @@ $(function() {
     // If Github mode is set, your Github username and repo name. Defaults
     // to Github pages branch (gh-pages)
     githubUserSettings: {
-      username: 'yourusername',
-      repo: 'yourrepo'
+      username: 'moughamir',
+      repo: 'TestCMSjs'
     }
 
   });

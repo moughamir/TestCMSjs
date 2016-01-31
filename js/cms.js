@@ -409,7 +409,7 @@ var CMS = {
       var value;
 
       // Set brand
-      if (attribute.attr == '.cms_sitename' && attribute.value.match(/\.(jpeg|jpg|gif|png)$/)) {
+      if (attribute.attr == '.cms_sitename' && attribute.value.match(/\.(jpeg|jpg|gif|png|svg)$/)) {
         value = '<img src="' + attribute.value + '" />';
       } else {
         value = attribute.value;
